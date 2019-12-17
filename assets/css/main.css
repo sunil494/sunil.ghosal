@@ -17,7 +17,7 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
-
+	
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -2005,7 +2005,8 @@
 			top: 0;
 			width: 100%;
 		}
-
+		
+		}
 		.image.thumb {
 			text-align: center;
 		}
@@ -2052,8 +2053,9 @@
 			float: left;
 			margin: 0 1.5em 1em 0;
 			top: 0.25em;
+			
 		}
-
+			
 		.image.right {
 			float: right;
 			margin: 0 0 1em 1.5em;
@@ -2090,7 +2092,10 @@
 				border-radius: 100%;
 				width: 100%;
 			}
-
+/* Link */
+.link:hover {
+	opacity: 50%;
+	}
 /* List */
 
 	ol {
